@@ -1,4 +1,9 @@
 # GAMES103 Lab1
+<table border="0">
+	<tr>
+		<td align='center'><img src='./images/01_score.png' width='100%' hight='100%'/></td>
+	</tr>
+</table>
 ## 完成内容
 1. 完成 Basic Tasks， 实现 Impulse 算法
 2. 完成 Bonus Tasks， 实现 Shape Matching 算法
@@ -32,6 +37,11 @@
 </table>
 
 # GAMES103 Lab2
+<table border="0">
+	<tr>
+		<td align='center'><img src='./images/02_score.png' width='100%' hight='100%'/></td>
+	</tr>
+</table>
 ## 完成内容
 1. 完成 Implicit Cloth Solver (with Chebyshev)算法
 2. 完成 Position-Based Dynamics (PBD) 算法
@@ -165,6 +175,11 @@
 </table>
 
 # GAMES103 Lab3
+<table border="0">
+	<tr>
+		<td align='center'><img src='./images/03_score.png' width='100%' hight='100%'/></td>
+	</tr>
+</table>
 ## 完成内容
 1. Basic Tasks
 2. Bonus Tasks
@@ -412,6 +427,11 @@ $$
 </table>
 
 # GAMES103 Lab4
+<table border="0">
+	<tr>
+		<td align='center'><img src='./images/04_score.png' width='100%' hight='100%'/></td>
+	</tr>
+</table>
 ## 完成内容
 1. Basic Tasks
 2. Bonus Tasks
