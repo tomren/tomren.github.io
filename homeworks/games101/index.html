@@ -1248,7 +1248,13 @@ pre[class*="language-"] {
   <style>.markdown-body{}pre.front-matter{display:none!important;}</style>
 </head>
 <body>
-  <article class="markdown-body"><h1 class="atx" id="games101-lab1">GAMES101 Lab1</h1>
+  <article class="markdown-body"><table>
+    <tbody><tr>
+        <td align="center"><img src="./images/games101.png"></td>
+    </tr>
+</tbody></table>
+
+<h1 class="atx" id="games101-lab1">GAMES101 Lab1</h1>
 <table border="0">
     <tbody><tr>
         <td align="center"><img width="100%" src="./images/01_score.png"></td>
@@ -1256,27 +1262,27 @@ pre[class*="language-"] {
 </tbody></table>
 
 <h2 class="atx" id="完成提高题">完成提高题</h2>
-<pre><code class="fenced-code-block language-cpp">Eigen<span class="token double-colon punctuation">::</span>Matrix4f <span class="token function">get_rotation</span><span class="token punctuation">(</span>Vector3f axis<span class="token punctuation">,</span> <span class="token keyword">float</span> angle<span class="token punctuation">)</span>
-<span class="token punctuation">{</span>
-    Eigen<span class="token double-colon punctuation">::</span>Matrix4f model <span class="token operator">=</span> Eigen<span class="token double-colon punctuation">::</span><span class="token class-name">Matrix4f</span><span class="token double-colon punctuation">::</span><span class="token function">Identity</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">const</span> <span class="token keyword">float</span> angle2radian <span class="token operator">=</span> MY_PI <span class="token operator">/</span> <span class="token number">180.f</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> radian <span class="token operator">=</span> angle <span class="token operator">*</span> angle2radian<span class="token punctuation">;</span>
+<pre><code class="fenced-code-block language-cpp">Eigen::Matrix4f get_rotation(Vector3f axis, float angle)
+{
+    Eigen::Matrix4f model = Eigen::Matrix4f::Identity();
+    const float angle2radian = MY_PI / 180.f;
+    float radian = angle * angle2radian;
 
-    <span class="token keyword">float</span> c <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">cos</span><span class="token punctuation">(</span>radian<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> nc <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">-</span> c<span class="token punctuation">;</span>
-    <span class="token keyword">float</span> s <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">sin</span><span class="token punctuation">(</span>radian<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    float c = std::cos(radian);
+    float nc = 1 - c;
+    float s = std::sin(radian);
 
-    <span class="token keyword">float</span> x <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">x</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> y <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">y</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> z <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">z</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    float x = axis.x();
+    float y = axis.y();
+    float z = axis.z();
 
-    model <span class="token operator">&lt;&lt;</span> c <span class="token operator">+</span> x<span class="token operator">*</span>x<span class="token operator">*</span>nc<span class="token punctuation">,</span>   x<span class="token operator">*</span>y<span class="token operator">*</span>nc <span class="token operator">-</span> z<span class="token operator">*</span>s<span class="token punctuation">,</span> y<span class="token operator">*</span>s <span class="token operator">+</span> x<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>  <span class="token number">0</span><span class="token punctuation">,</span>
-             z<span class="token operator">*</span>s <span class="token operator">+</span> x<span class="token operator">*</span>y<span class="token operator">*</span>nc<span class="token punctuation">,</span> c <span class="token operator">+</span> y<span class="token operator">*</span>y<span class="token operator">*</span>nc<span class="token punctuation">,</span>   <span class="token operator">-</span>x<span class="token operator">*</span>s <span class="token operator">+</span> y<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span>
-             <span class="token operator">-</span>y<span class="token operator">*</span>s<span class="token operator">+</span>x<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>  x<span class="token operator">*</span>s<span class="token operator">+</span>y<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>   c<span class="token operator">+</span>z<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>      <span class="token number">0</span><span class="token punctuation">,</span>
-             <span class="token number">0</span><span class="token punctuation">,</span>            <span class="token number">0</span><span class="token punctuation">,</span>            <span class="token number">0</span><span class="token punctuation">,</span>             <span class="token number">1</span><span class="token punctuation">;</span>
+    model &lt;&lt; c + x*x*nc,   x*y*nc - z*s, y*s + x*z*nc,  0,
+             z*s + x*y*nc, c + y*y*nc,   -x*s + y*z*nc, 0,
+             -y*s+x*z*nc,  x*s+y*z*nc,   c+z*z*nc,      0,
+             0,            0,            0,             1;
 
-    <span class="token keyword">return</span> model<span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+    return model;
+}</code></pre>
 <h1 class="atx" id="games101-lab2">GAMES101 Lab2</h1>
 <table border="0">
     <tbody><tr>

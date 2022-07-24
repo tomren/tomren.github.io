@@ -1,3 +1,9 @@
+<table>
+    <tr>
+        <td align='center'><img src='./images/games101.png'/></td>
+    </tr>
+</table>
+
 # GAMES101 Lab1
 
 <table border="0">
@@ -563,6 +569,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
 ### Glint3 实现 Position-Normal
 
 - 未复现闪光
+
 - 代码有错误（每次执行的图像会随机执行，多线程下有其他问题未查出）
   
   <table border="0">
