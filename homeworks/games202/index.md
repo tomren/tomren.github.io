@@ -1,17 +1,18 @@
 <table>
     <tr>
-        <td align='center'><img src='./images/games202.png'/></td>
+        <td align='center'><img src='./images/games202.jpg'/></td>
     </tr>
+
 </table>
 
 # GAMES202 Lab0
 
 <table>
     <tr>
-        <td align='center'><img src='./images/00_01.png'/></td>
+        <td align='center'><img src='./images/00_01.jpg'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/00_02.png'/></td>
+        <td align='center'><img src='./images/00_02.jpg'/></td>
     </tr>
 </table>
 
@@ -23,16 +24,16 @@
         <td align='center'>MutilSM</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/01_SM_renzhixiong.png'/></td>
-        <td align='center'><img src='./images/01_MutilSM_renzhixiong.png'/></td>
+        <td align='center'><img src='./images/01_SM_renzhixiong.jpg'/></td>
+        <td align='center'><img src='./images/01_MutilSM_renzhixiong.jpg'/></td>
     </tr>
     <tr>
         <td align='center'>PCF</td>
         <td align='center'>PCSS</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/01_PCF_renzhixiong.png'/></td>
-        <td align='center'><img src='./images/01_PCSS_renzhixiong.png'/></td>
+        <td align='center'><img src='./images/01_PCF_renzhixiong.jpg'/></td>
+        <td align='center'><img src='./images/01_PCSS_renzhixiong.jpg'/></td>
     </tr>
     <tr>
         <td align='center' colspan=2><b>RotSM</b></td>
@@ -57,9 +58,9 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/02_PRT_Shadowed_sample01.png'/></td>
-        <td align='center'><img src='./images/02_PRT_Shadowed_sample02.png'/></td>
-        <td align='center'><img src='./images/02_PRT_Shadowed_sample03.png'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_sample01.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_sample02.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_sample03.jpg'/></td>
     </tr>
 </table>
 
@@ -74,16 +75,16 @@
         <td align='center'>shadowed</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_Unshadowed_gracecathedral.png'/></td>
-        <td align='center'><img src='./images/02_PRT_Shadowed_gracecathedral.png'/></td>
+        <td align='center'><img src='./images/02_PRT_Unshadowed_gracecathedral.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_gracecathedral.jpg'/></td>
     </tr>
     <tr>
         <td align='center'>interreflection</td>
         <td align='center'>scene</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_InterRef_gracecathedral.png'/></td>
-        <td align='center'><img src='./images/02_PRT_InterRef_gracecathedral_scene.png'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_gracecathedral.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_gracecathedral_scene.jpg'/></td>
     </tr>
 </table>
 
@@ -96,16 +97,16 @@
         <td align='center'>shadowed</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_Unshadowed_indoor.png'/></td>
-        <td align='center'><img src='./images/02_PRT_Shadowed_indoor.png'/></td>
+        <td align='center'><img src='./images/02_PRT_Unshadowed_indoor.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_indoor.jpg'/></td>
     </tr>
     <tr>
         <td align='center'>interreflection</td>
         <td align='center'>scene</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_InterRef_indoor.png'/></td>
-        <td align='center'><img src='./images/02_PRT_InterRef_indoor_scene.png'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_indoor.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_indoor_scene.jpg'/></td>
     </tr>
 </table>
 
@@ -118,16 +119,16 @@
         <td align='center'>shadowed</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_Unshadowed_skybox.png'/></td>
-        <td align='center'><img src='./images/02_PRT_Shadowed_skybox.png'/></td>
+        <td align='center'><img src='./images/02_PRT_Unshadowed_skybox.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_Shadowed_skybox.jpg'/></td>
     </tr>
     <tr>
         <td align='center'>interreflection</td>
         <td align='center'>scene</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_PRT_InterRef_skybox.png'/></td>
-        <td align='center'><img src='./images/02_PRT_InterRef_skybox_scene.png'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_skybox.jpg'/></td>
+        <td align='center'><img src='./images/02_PRT_InterRef_skybox_scene.jpg'/></td>
     </tr>
 </table>
 
@@ -155,13 +156,13 @@
         <td align='center'>漫反射率</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_Diffuse0.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_Diffuse0.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_Diffuse1.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_Diffuse1.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_Diffuse2.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_Diffuse2.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -169,10 +170,10 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/03_RayTracing0.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_RayTracing0.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_RayTracing1.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_RayTracing1.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -183,13 +184,13 @@
         <td align='center'>1 PSS</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_1PSS.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_1PSS.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>60 PSS</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_60PSS.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_60PSS.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -212,8 +213,8 @@
         <td align='center'>预计算Eavg</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_GGX_E_MC_LUT.png' width='100%' hight='100%'/></td>
-        <td align='center'><img src='./images/04_GGX_Eavg_LUT_MC.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_GGX_E_MC_LUT.jpg' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_GGX_Eavg_LUT_MC.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -221,7 +222,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/04_PBR.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_PBR.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -229,7 +230,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/04_Kulla-Conty.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_Kulla-Conty.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -241,8 +242,8 @@
         <td align='center'>预计算Eavg</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_GGX_E_LUT.png' width='100%' hight='100%'/></td>
-        <td align='center'><img src='./images/04_GGX_Eavg_LUT.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_GGX_E_LUT.jpg' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_GGX_Eavg_LUT.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -250,7 +251,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/04_Split-Sum.png' width='50%' hight='50%'/></td>
+        <td align='center'><img src='./images/04_Split-Sum.jpg' width='50%' hight='50%'/></td>
     </tr>
 </table>
 
@@ -258,6 +259,6 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/05_01.png' width='50%' hight='50%'/></td>
+        <td align='center'><img src='./images/05_01.jpg' width='50%' hight='50%'/></td>
     </tr>
 </table>

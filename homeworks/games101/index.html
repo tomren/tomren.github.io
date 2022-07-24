@@ -1250,43 +1250,43 @@ pre[class*="language-"] {
 <body>
   <article class="markdown-body"><table>
     <tbody><tr>
-        <td align="center"><img src="./images/games101.png"></td>
+        <td align="center"><img src="./images/games101.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab1">GAMES101 Lab1</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/01_score.png"></td>
+        <td align="center"><img width="100%" src="./images/01_score.jpg"></td>
     </tr>
 </tbody></table>
 
 <h2 class="atx" id="完成提高题">完成提高题</h2>
-<pre><code class="fenced-code-block language-cpp">Eigen::Matrix4f get_rotation(Vector3f axis, float angle)
-{
-    Eigen::Matrix4f model = Eigen::Matrix4f::Identity();
-    const float angle2radian = MY_PI / 180.f;
-    float radian = angle * angle2radian;
+<pre><code class="fenced-code-block language-cpp">Eigen<span class="token double-colon punctuation">::</span>Matrix4f <span class="token function">get_rotation</span><span class="token punctuation">(</span>Vector3f axis<span class="token punctuation">,</span> <span class="token keyword">float</span> angle<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    Eigen<span class="token double-colon punctuation">::</span>Matrix4f model <span class="token operator">=</span> Eigen<span class="token double-colon punctuation">::</span><span class="token class-name">Matrix4f</span><span class="token double-colon punctuation">::</span><span class="token function">Identity</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token keyword">float</span> angle2radian <span class="token operator">=</span> MY_PI <span class="token operator">/</span> <span class="token number">180.f</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> radian <span class="token operator">=</span> angle <span class="token operator">*</span> angle2radian<span class="token punctuation">;</span>
 
-    float c = std::cos(radian);
-    float nc = 1 - c;
-    float s = std::sin(radian);
+    <span class="token keyword">float</span> c <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">cos</span><span class="token punctuation">(</span>radian<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> nc <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">-</span> c<span class="token punctuation">;</span>
+    <span class="token keyword">float</span> s <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">sin</span><span class="token punctuation">(</span>radian<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    float x = axis.x();
-    float y = axis.y();
-    float z = axis.z();
+    <span class="token keyword">float</span> x <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">x</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> y <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">y</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">float</span> z <span class="token operator">=</span> axis<span class="token punctuation">.</span><span class="token function">z</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    model &lt;&lt; c + x*x*nc,   x*y*nc - z*s, y*s + x*z*nc,  0,
-             z*s + x*y*nc, c + y*y*nc,   -x*s + y*z*nc, 0,
-             -y*s+x*z*nc,  x*s+y*z*nc,   c+z*z*nc,      0,
-             0,            0,            0,             1;
+    model <span class="token operator">&lt;&lt;</span> c <span class="token operator">+</span> x<span class="token operator">*</span>x<span class="token operator">*</span>nc<span class="token punctuation">,</span>   x<span class="token operator">*</span>y<span class="token operator">*</span>nc <span class="token operator">-</span> z<span class="token operator">*</span>s<span class="token punctuation">,</span> y<span class="token operator">*</span>s <span class="token operator">+</span> x<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>  <span class="token number">0</span><span class="token punctuation">,</span>
+             z<span class="token operator">*</span>s <span class="token operator">+</span> x<span class="token operator">*</span>y<span class="token operator">*</span>nc<span class="token punctuation">,</span> c <span class="token operator">+</span> y<span class="token operator">*</span>y<span class="token operator">*</span>nc<span class="token punctuation">,</span>   <span class="token operator">-</span>x<span class="token operator">*</span>s <span class="token operator">+</span> y<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span>
+             <span class="token operator">-</span>y<span class="token operator">*</span>s<span class="token operator">+</span>x<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>  x<span class="token operator">*</span>s<span class="token operator">+</span>y<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>   c<span class="token operator">+</span>z<span class="token operator">*</span>z<span class="token operator">*</span>nc<span class="token punctuation">,</span>      <span class="token number">0</span><span class="token punctuation">,</span>
+             <span class="token number">0</span><span class="token punctuation">,</span>            <span class="token number">0</span><span class="token punctuation">,</span>            <span class="token number">0</span><span class="token punctuation">,</span>             <span class="token number">1</span><span class="token punctuation">;</span>
 
-    return model;
-}</code></pre>
+    <span class="token keyword">return</span> model<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
 <h1 class="atx" id="games101-lab2">GAMES101 Lab2</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/02_score.png"></td>
+        <td align="center"><img width="100%" src="./images/02_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1311,15 +1311,15 @@ get_mass_color_idx</code></pre>
         <td align="center">有抗锯齿</td>
     </tr>
     <tr>
-        <td align="center"><img width="128" src="./images/02_无抗锯齿.png"></td>
-        <td align="center"><img width="128" src="./images/02_有抗锯齿.png"></td>
+        <td align="center"><img width="128" src="./images/02_无抗锯齿.jpg"></td>
+        <td align="center"><img width="128" src="./images/02_有抗锯齿.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab3">GAMES101 Lab3</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/03_score.png"></td>
+        <td align="center"><img width="100%" src="./images/03_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1340,31 +1340,31 @@ get_mass_color_idx</code></pre>
         <td align="center">normal shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_normal.png"></td>
+        <td align="center"><img width="100%" src="./images/03_normal.jpg"></td>
     </tr>
     <tr>
         <td align="center">phong shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_phong.png"></td>
+        <td align="center"><img width="100%" src="./images/03_phong.jpg"></td>
     </tr>
     <tr>
         <td align="center">texture shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_texture.png"></td>
+        <td align="center"><img width="100%" src="./images/03_texture.jpg"></td>
     </tr>
     <tr>
         <td align="center">bump shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_bump.png"></td>
+        <td align="center"><img width="100%" src="./images/03_bump.jpg"></td>
     </tr>
     <tr>
         <td align="center">displacement shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_displacement.png"></td>
+        <td align="center"><img width="100%" src="./images/03_displacement.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1375,19 +1375,19 @@ get_mass_color_idx</code></pre>
         <td align="center">/models/rock/rock.obj</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_rock_eye_25.png"></td>
+        <td align="center"><img width="100%" src="./images/03_rock_eye_25.jpg"></td>
     </tr>
     <tr>
         <td align="center">/models/bunny.obj</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_bunny.png"></td>
+        <td align="center"><img width="100%" src="./images/03_bunny.jpg"></td>
     </tr>
     <tr>
         <td align="center">/models/lpshead/head_tri.obj<br>使用的 custom_fragment_shader</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_face_msaa.png"></td>
+        <td align="center"><img width="100%" src="./images/03_face_msaa.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1397,32 +1397,32 @@ get_mass_color_idx</code></pre>
         <td align="center">256x256 原图效果</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_small_256x256_bilinear.png"></td>
+        <td align="center"><img width="100%" src="./images/03_small_256x256_bilinear.jpg"></td>
     </tr>
     <tr>
         <td align="center">256x256 bilinear</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_small_256x256_bilinear.png"></td>
+        <td align="center"><img width="100%" src="./images/03_small_256x256_bilinear.jpg"></td>
     </tr>
     <tr>
         <td align="center">原图 bilinear</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_texture_bilinear.png"></td>
+        <td align="center"><img width="100%" src="./images/03_texture_bilinear.jpg"></td>
     </tr>
     <tr>
         <td align="center">bilinear 使用的缩放图</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/03_spot_texture_small.png"></td>
+        <td align="center"><img width="100%" src="./images/03_spot_texture_small.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab4">GAMES101 Lab4</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/04_score.png"></td>
+        <td align="center"><img width="100%" src="./images/04_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1438,7 +1438,7 @@ get_mass_color_idx</code></pre>
 <li>按键 a 开启/关闭 反走样</li>
 <li>按键 e 绘制/不绘制 控制线</li>
 <li>按键 c 清除画板</li>
-<li>按键 s 保存  my_bezier_curve.png 图片</li>
+<li>按键 s 保存  my_bezier_curve.jpg 图片</li>
 </ul>
 <h2 class="atx" id="函数说明">函数说明</h2>
 <h3 class="atx" id="drawcanvas-类">DrawCanvas 类</h3>
@@ -1474,32 +1474,32 @@ get_mass_color_idx</code></pre>
         <td align="center">01 与样例重合的图像</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/04_01.png"></td>
+        <td align="center"><img width="100%" src="./images/04_01.jpg"></td>
     </tr>
     <tr>
         <td align="center">02 无反走样</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/04_02.png"></td>
+        <td align="center"><img width="100%" src="./images/04_02.jpg"></td>
     </tr>
     <tr>
         <td align="center">03 开启反走样</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/04_03.png"></td>
+        <td align="center"><img width="100%" src="./images/04_03.jpg"></td>
     </tr>
     <tr>
         <td align="center">04 选取控制点、有连线</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/04_04.png"></td>
+        <td align="center"><img width="100%" src="./images/04_04.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab5">GAMES101 Lab5</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/05_score.png"></td>
+        <td align="center"><img width="100%" src="./images/05_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1514,20 +1514,20 @@ get_mass_color_idx</code></pre>
         <td align="center">01 每像素使用1条射线</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/05_01.png"></td>
+        <td align="center"><img width="100%" src="./images/05_01.jpg"></td>
     </tr>
     <tr>
         <td align="center">02 每像素使用4条射线采样</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/05_02.png"></td>
+        <td align="center"><img width="100%" src="./images/05_02.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab6">GAMES101 Lab6</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/06_score.png"></td>
+        <td align="center"><img width="100%" src="./images/06_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1567,32 +1567,32 @@ enum AXIS_DIR
         <td align="center">01 BVH Middle 方法生成图</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/06_01.png"></td>
+        <td align="center"><img width="100%" src="./images/06_01.jpg"></td>
     </tr>
     <tr>
         <td align="center">单线程</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/06_bvh_middle.png"></td>
+        <td align="center"><img width="100%" src="./images/06_bvh_middle.jpg"></td>
     </tr>
     <tr>
         <td align="center">02 BVH SAH 方法生成图</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/06_02.png"></td>
+        <td align="center"><img width="100%" src="./images/06_02.jpg"></td>
     </tr>
     <tr>
         <td align="center">多线程</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/06_bvh_sah_thread.png"></td>
+        <td align="center"><img width="100%" src="./images/06_bvh_sah_thread.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab7">GAMES101 Lab7</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/07_score.png"></td>
+        <td align="center"><img width="100%" src="./images/07_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1638,47 +1638,47 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">CornellBox 有锯齿 SPP2048</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_spp2048.png"></td>
+        <td align="center"><img width="100%" src="./images/07_spp2048.jpg"></td>
     </tr>
     <tr>
         <td align="center">CornellBox 无锯齿 SPP2048</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_mx2048.png"></td>
+        <td align="center"><img width="100%" src="./images/07_mx2048.jpg"></td>
     </tr>
     <tr>
         <td align="center">bunny SPP2048</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_by2048.png"></td>
+        <td align="center"><img width="100%" src="./images/07_by2048.jpg"></td>
     </tr>
     <tr>
         <td align="center">微表面 SPP2048</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_xby2048.png"></td>
+        <td align="center"><img width="100%" src="./images/07_xby2048.jpg"></td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_bby2048.png"></td>
+        <td align="center"><img width="100%" src="./images/07_bby2048.jpg"></td>
     </tr>
     <tr>
         <td align="center">单线程时间</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_single_thread.png"></td>
+        <td align="center"><img width="100%" src="./images/07_single_thread.jpg"></td>
     </tr>
     <tr>
         <td align="center">多线程时间</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/07_mutil_thread.png"></td>
+        <td align="center"><img width="100%" src="./images/07_mutil_thread.jpg"></td>
     </tr>
 </tbody></table>
 
 <h1 class="atx" id="games101-lab8">GAMES101 Lab8</h1>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/08_score.png"></td>
+        <td align="center"><img width="100%" src="./images/08_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1697,16 +1697,16 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">steps_per_frame 4096</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_01.png"></td>
+        <td align="center"><img width="100%" src="./images/08_01.jpg"></td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_02.png"></td>
+        <td align="center"><img width="100%" src="./images/08_02.jpg"></td>
     </tr>
     <tr>
         <td align="center">steps_per_frame 8192</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_03.png"></td>
+        <td align="center"><img width="100%" src="./images/08_03.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1716,7 +1716,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_04.png"></td>
+        <td align="center"><img width="100%" src="./images/08_04.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1726,7 +1726,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_05.png"></td>
+        <td align="center"><img width="100%" src="./images/08_05.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1736,13 +1736,13 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_06.png"></td>
+        <td align="center"><img width="100%" src="./images/08_06.jpg"></td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_07.png"></td>
+        <td align="center"><img width="100%" src="./images/08_07.jpg"></td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/08_08.png"></td>
+        <td align="center"><img width="100%" src="./images/08_08.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1750,7 +1750,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
 <h2 class="atx" id="选题-渲染复杂表面的闪光">选题 渲染复杂表面的闪光</h2>
 <table border="0">
     <tbody><tr>
-        <td align="center"><img width="100%" src="./images/final_score.png"></td>
+        <td align="center"><img width="100%" src="./images/final_score.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1764,7 +1764,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align="center">未复现闪光</td>
     </tr>
     <tr>
-        <td align="center"><img width="100%" src="./images/final_G1_00.png"></td>
+        <td align="center"><img width="100%" src="./images/final_G1_00.jpg"></td>
     </tr>
 </tbody></table>
 
@@ -1775,13 +1775,13 @@ enum MaterialType { DIFFUSE, GLOSSY };
 <li><p>代码有错误（每次执行的图像会随机执行，多线程下有其他问题未查出）</p>
 <table border="0">
   <tbody><tr>
-      <td align="center"><img width="100%" src="./images/final_G2_01.png"></td>
+      <td align="center"><img width="100%" src="./images/final_G2_01.jpg"></td>
   </tr>
   <tr>
-      <td align="center"><img width="100%" src="./images/final_G2_02.png"></td>
+      <td align="center"><img width="100%" src="./images/final_G2_02.jpg"></td>
   </tr>
   <tr>
-      <td align="center"><img width="100%" src="./images/final_bunny_04.png"></td>
+      <td align="center"><img width="100%" src="./images/final_bunny_04.jpg"></td>
   </tr>
 </tbody></table>
 </li>

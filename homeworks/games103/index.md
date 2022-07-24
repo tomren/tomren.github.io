@@ -2,7 +2,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/01_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/01_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -50,7 +50,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/02_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/02_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -103,7 +103,7 @@
    - 默认的 rho = 0.995f 不稳定， 需要改小到 0.95 左右
 3. 使用 Chebyshev 加速后，布料初始下落明显加快了
 
-![avatar](./images/02_implicit_chebyshev.png)
+![avatar](./images/02_implicit_chebyshev.jpg)
 
 ### 参数设置
 
@@ -237,7 +237,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/03_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -267,7 +267,7 @@ NuGetForUnity https://github.com/GlitchEnzo/NuGetForUnity
 
 添加 Accord.Math 3.8.0
 
-![avatar](./images/03_accord.png)
+![avatar](./images/03_accord.jpg)
 
 ## 文件说明
 
@@ -276,7 +276,7 @@ NuGetForUnity https://github.com/GlitchEnzo/NuGetForUnity
 
 FVM 中可选择弹性类型和开启平滑
 
-![avatar](./images/03_fvm.png)
+![avatar](./images/03_fvm.jpg)
 
 # Cauchy-Green
 
@@ -521,7 +521,7 @@ $$
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/04_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -540,16 +540,16 @@ $$
         <td align='center'>Mi Grid</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_slash_grid.png' width='128' hight='128'/></td>
-        <td align='center'><img src='./images/04_mi_grid.png' width='128' hight='128'/></td>
+        <td align='center'><img src='./images/04_slash_grid.jpg' width='128' hight='128'/></td>
+        <td align='center'><img src='./images/04_mi_grid.jpg' width='128' hight='128'/></td>
     </tr>
     <tr>
         <td align='center'>Slash Grid</td>
         <td align='center'>Mi Grid</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_slash_wave.png' width='500' hight='500'/></td>
-        <td align='center'><img src='./images/04_mi_wave.png' width='500' hight='500'/></td>
+        <td align='center'><img src='./images/04_slash_wave.jpg' width='500' hight='500'/></td>
+        <td align='center'><img src='./images/04_mi_wave.jpg' width='500' hight='500'/></td>
     </tr>
 </table>
 

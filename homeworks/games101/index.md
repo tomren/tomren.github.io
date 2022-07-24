@@ -1,6 +1,6 @@
 <table>
     <tr>
-        <td align='center'><img src='./images/games101.png'/></td>
+        <td align='center'><img src='./images/games101.jpg'/></td>
     </tr>
 </table>
 
@@ -8,7 +8,7 @@
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/01_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/01_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -42,7 +42,7 @@ Eigen::Matrix4f get_rotation(Vector3f axis, float angle)
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/02_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/02_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -71,8 +71,8 @@ get_mass_color_idx
         <td align='center'>有抗锯齿</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/02_无抗锯齿.png' width='128' hight='128'/></td>
-        <td align='center'><img src='./images/02_有抗锯齿.png' width='128' hight='128'/></td>
+        <td align='center'><img src='./images/02_无抗锯齿.jpg' width='128' hight='128'/></td>
+        <td align='center'><img src='./images/02_有抗锯齿.jpg' width='128' hight='128'/></td>
     </tr>
 </table>
 
@@ -80,7 +80,7 @@ get_mass_color_idx
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/03_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -104,31 +104,31 @@ get_mass_color_idx
         <td align='center'>normal shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_normal.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_normal.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>phong shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_phong.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_phong.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>texture shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_texture.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_texture.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>bump shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_bump.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_bump.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>displacement shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_displacement.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_displacement.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -141,19 +141,19 @@ get_mass_color_idx
         <td align='center'>/models/rock/rock.obj</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_rock_eye_25.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_rock_eye_25.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>/models/bunny.obj</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_bunny.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_bunny.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>/models/lpshead/head_tri.obj</br>使用的 custom_fragment_shader</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_face_msaa.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_face_msaa.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -164,25 +164,25 @@ get_mass_color_idx
         <td align='center'>256x256 原图效果</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_small_256x256_bilinear.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_small_256x256_bilinear.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>256x256 bilinear</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_small_256x256_bilinear.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_small_256x256_bilinear.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>原图 bilinear</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_texture_bilinear.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_texture_bilinear.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>bilinear 使用的缩放图</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/03_spot_texture_small.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/03_spot_texture_small.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -190,7 +190,7 @@ get_mass_color_idx
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/04_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -206,7 +206,7 @@ get_mass_color_idx
 - 按键 a 开启/关闭 反走样
 - 按键 e 绘制/不绘制 控制线
 - 按键 c 清除画板
-- 按键 s 保存  my_bezier_curve.png 图片
+- 按键 s 保存  my_bezier_curve.jpg 图片
 
 ## 函数说明
 
@@ -248,25 +248,25 @@ get_mass_color_idx
         <td align='center'>01 与样例重合的图像</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_01.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_01.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>02 无反走样</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_02.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_02.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>03 开启反走样</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_03.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_03.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>04 选取控制点、有连线</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/04_04.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/04_04.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -274,7 +274,7 @@ get_mass_color_idx
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/05_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/05_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -290,13 +290,13 @@ get_mass_color_idx
         <td align='center'>01 每像素使用1条射线</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/05_01.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/05_01.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>02 每像素使用4条射线采样</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/05_02.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/05_02.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -304,7 +304,7 @@ get_mass_color_idx
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/06_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/06_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -348,25 +348,25 @@ enum AXIS_DIR
         <td align='center'>01 BVH Middle 方法生成图</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/06_01.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/06_01.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>单线程</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/06_bvh_middle.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/06_bvh_middle.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>02 BVH SAH 方法生成图</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/06_02.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/06_02.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>多线程</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/06_bvh_sah_thread.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/06_bvh_sah_thread.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -374,7 +374,7 @@ enum AXIS_DIR
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/07_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -427,40 +427,40 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>CornellBox 有锯齿 SPP2048</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_spp2048.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_spp2048.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>CornellBox 无锯齿 SPP2048</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_mx2048.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_mx2048.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>bunny SPP2048</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_by2048.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_by2048.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>微表面 SPP2048</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_xby2048.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_xby2048.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_bby2048.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_bby2048.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>单线程时间</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_single_thread.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_single_thread.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>多线程时间</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/07_mutil_thread.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/07_mutil_thread.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -468,7 +468,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/08_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -489,16 +489,16 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>steps_per_frame 4096</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_01.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_01.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_02.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_02.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
         <td align='center'>steps_per_frame 8192</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_03.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_03.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -509,7 +509,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_04.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_04.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -520,7 +520,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_05.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_05.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -531,13 +531,13 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>steps_per_frame 1024</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_06.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_06.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_07.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_07.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/08_08.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/08_08.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -547,7 +547,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
 
 <table border="0">
     <tr>
-        <td align='center'><img src='./images/final_score.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/final_score.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -562,7 +562,7 @@ enum MaterialType { DIFFUSE, GLOSSY };
         <td align='center'>未复现闪光</td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/final_G1_00.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/final_G1_00.jpg' width='100%' hight='100%'/></td>
     </tr>
 </table>
 
@@ -574,12 +574,12 @@ enum MaterialType { DIFFUSE, GLOSSY };
   
   <table border="0">
     <tr>
-        <td align='center'><img src='./images/final_G2_01.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/final_G2_01.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/final_G2_02.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/final_G2_02.jpg' width='100%' hight='100%'/></td>
     </tr>
     <tr>
-        <td align='center'><img src='./images/final_bunny_04.png' width='100%' hight='100%'/></td>
+        <td align='center'><img src='./images/final_bunny_04.jpg' width='100%' hight='100%'/></td>
     </tr>
   </table>
