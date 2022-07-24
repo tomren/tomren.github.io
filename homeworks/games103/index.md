@@ -14,8 +14,11 @@
 ## 1. Basic Tasks
 
 1. 在 Impulse 算法中，当物体移动相对平稳后，通过 punish_threshold 阈值将小量移动和转动逐渐惩罚到 0 值
+
 2. 通过 collision_type 变量控制使用 Impulse 或 Penalty 算法
+
 3. 练习了 Penalty 算法，参数难调节，效果不理想 (log_barrier_flag 标记是否使用 log barrier)
+
 4. 与 Impulse 相比 Penalty 需要使用更小的步长防止模型穿透墙面和地面
    
    <table border="0">
@@ -54,12 +57,17 @@
 ## 完成内容
 
 1. 完成 Implicit Cloth Solver (with Chebyshev)算法
+
 2. 完成 Position-Based Dynamics (PBD) 算法
    
    ## 额外完成
+
 3. 完成 Newton-Raphson 算法 newton_model.cs
+
 4. 完成 Jacobi 算法 (with Chebyshev) jacobi_model.cs
+
 5. 完成 Conjugate Gradient 算法 conjugate_gradient_model.cs
+
 6. 完成 Projective Dynamics 算法 projective_dynamics_model.cs
 
 ## 使用控件
@@ -123,6 +131,7 @@
 ### 参数设置
 
 1. t = 0.0333
+
 2. 迭代求解次数 32
    
    <table border="0">
@@ -136,8 +145,11 @@
 ### 参数设置
 
 1. 由于 A 的 Inverse 求解速度慢，所以只生成了 5x5 的定点网格
+
 2. t = 0.0333
+
 3. spring_k = 1000
+
 4. 迭代求解次数 5
    
    <table border="0">
@@ -151,14 +163,21 @@
 ### 参数设置
 
 1. t = 0.0222
+
 2. spring_k = 500
+
 3. 定点个数 11x11
+
 4. 迭代求解次数 8
    
    ### 使用 Chebyshev 参数设置
+
 5. t = 0.015
+
 6. spring_k = 400
+
 7. 定点个数 11x11
+
 8. 迭代求解次数 8
 
 <table border="0">
@@ -181,8 +200,11 @@
 ### 参数设置
 
 1. t = 0.0222
+
 2. spring_k = 500
+
 3. 定点个数 11x11
+
 4. 迭代求解次数 10
    
    <table border="0">
@@ -198,8 +220,11 @@
 ### 参数设置
 
 1. t = 0.015
+
 2. spring_k = 500
+
 3. 定点个数 5x5
+
 4. 迭代求解次数 5
    
    <table border="0">
@@ -219,14 +244,21 @@
 ## 完成内容
 
 1. Basic Tasks
+
 2. Bonus Tasks
    
    ## 额外完成内容
+
 3. Neo Hookean 王老师PPT公式
+
 4. Neo Hookean 知乎公式
+
 5. Neo Hookean wiki公式
+
 6. Mooney Rivlin 王老师PPT公式
+
 7. Mooney Rivlin wiki公式
+
 8. Fung 王老师PPT公式
 
 ## 使用控件
