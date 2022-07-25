@@ -8,7 +8,7 @@ I am familiar with the business process of the game server, and have developed a
 
 # Graphics Homeworks
 
-<p style="font-size:32px"><a href="./homeworks/games101/index.html">GAMES101:  计算机图形学</front></a></p>
+<p style="font-size:32px"><a href="./homeworks/games101/index.html">GAMES101:  计算机图形学</a></p>
 <table>
     <tr>
         <td><img src='./homeworks/games101/images/s01.jpg'/></td>
@@ -18,7 +18,7 @@ I am familiar with the business process of the game server, and have developed a
     </tr>
 </table>
 
-<p style="font-size:32px"><a href="./homeworks/games202/index.html">GAMES202:  高质量实时渲染</front></a></p>
+<p style="font-size:32px"><a href="./homeworks/games202/index.html">GAMES202:  高质量实时渲染</a></p>
 <table>
     <tr>
         <td><img src='./homeworks/games202/images/s01.jpg'/></td>
@@ -28,7 +28,7 @@ I am familiar with the business process of the game server, and have developed a
     </tr>
 </table>
 
-<p style="font-size:32px"><a href="./homeworks/games102/index.html">GAMES102:  几何建模与处理基础</front></a></p>
+<p style="font-size:32px"><a href="./homeworks/games102/index.html">GAMES102:  几何建模与处理基础</a></p>
 <table>
     <tr>
         <td><img src='./homeworks/games102/images/s01.jpg'/></td>
@@ -38,7 +38,10 @@ I am familiar with the business process of the game server, and have developed a
     </tr>
 </table>
 
-<p style="font-size:32px"><a href="./homeworks/games103/index.html">GAMES103:  基于物理的计算机动画入门</front></a></p>
+<p style="font-size:32px"><a href="./homeworks/games103/index.html">GAMES103:  基于物理的计算机动画入门</a></p>
+
+<p style="font-size:28px"><a href="https://www.bilibili.com/video/BV1t34y157RT?spm_id_from=333.999.0.0&vd_source=2b73758ae03cf222969eb28d139ccc94">Physics Simulation Video</a></p>
+
 <table>
     <tr>
         <td><img src='./homeworks/games103/images/s01.jpg'/></td>
