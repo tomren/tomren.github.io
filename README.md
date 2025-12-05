@@ -1,10 +1,30 @@
 # Introduce
 
-I am having been work in game industry for dozen years, and involved in the development and maintain of several published games. Some of these games were in prototype stage when I joined. 
+With over a decade of experience in the game industry, I have played a key role in the development and ongoing maintenance of multiple published titles—some of which were still in the prototype stage when I joined the projects.
 
-I mainly developed game server parts, and also coded client modules sometimes(such as networks, fight, collision, physicis moduels, etcs.). 
+My expertise lies primarily in game server development, where I’ve designed and implemented a wide range of core systems, including character attributes, quest/task logic, battle mechanics, map management, in-game mall (store), chat functionality, and foundational network and database interfaces. I also have hands-on experience developing client-side modules, such as networking layers, combat logic, collision detection, and physics systems.
 
-I am familiar with the business process of the game server, and have developed a variety of core modules, such as attributes, tasks, battles, maps, mall, chat, and base interfaces of the network and database, etcs. I also developed toolchain for games release process.
+Beyond gameplay systems, I built a custom toolchain to support and automate various stages of the game release pipeline, improving efficiency and reliability throughout the deployment process.
+
+<p style="font-size:32px"><a href="">WebGPU</a></p>
+<table>
+    <tr>
+        <td><img src='./webgpu/00.png'/></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><img src='./webgpu/01.png'/></td>
+        <td><img src='./webgpu/02.png'/></td>
+    </tr>
+    <tr>
+        <td><img src='./webgpu/03.jpg'/></td>
+        <td><img src='./webgpu/04.jpg'/></td>
+    </tr>
+        <td><img src='./webgpu/05.png'/></td>
+        <td><img src='./webgpu/06.jpg'/></td>
+    </tr>
+</table>
 
 # Graphics Homeworks
 
