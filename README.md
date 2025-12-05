@@ -24,6 +24,10 @@ Beyond gameplay systems, I built a custom toolchain to support and automate vari
         <td><img src='./webgpu/05.png'/></td>
         <td><img src='./webgpu/06.jpg'/></td>
     </tr>
+    </tr>
+        <td><img src='./webgpu/07.png'/></td>
+        <td><img src='./webgpu/07.png'/></td>
+    </tr>
 </table>
 
 # Graphics Homeworks
